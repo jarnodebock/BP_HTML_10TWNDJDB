@@ -1,7 +1,7 @@
 /* Navigation */
 
 .vertical-buttons {
-    font-family: 'Montserrat';
+    font-family: 'Roboto';
     text-transform: uppercase;
     font-weight: bold;
     list-style: none;
@@ -9,7 +9,7 @@
     margin: 0;
     display: flex;
     flex-direction: column; /* stack vertically */
-    gap: 1px; /* space between buttons */
+    gap: 10px; /* space between buttons */
 }
 
 .vertical-buttons li a {
@@ -20,7 +20,7 @@
     text-decoration: none;
     border-radius: 6px;
     text-align: left;
-    font-size: 1em;
+    font-size: 4em;
 }
 
 .vertical-buttons li a:hover {
